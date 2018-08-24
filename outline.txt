@@ -1,0 +1,24 @@
+Step 1. Goal setting
+- Predict annual health cost on any given individual
+- Evaluation metrics on test set
+	- Coefficient of determination (r2)
+	- Mean absolute error (mae)
+	- Mean squared error (mse)
+
+Step 2. Data cleaning
+- Eliminate meaningless features
+- Repair or eliminate imcomplete records
+
+Step 3. Descriptive statistics
+- Box plot for each numerical feature to obtain mean, variance and to detect outliers
+- Bar chart for each categorical feature to detect rare events
+
+Step 3b. Subgroup analysis for outliers  (Optional)
+
+Step 4. Data transformation
+- Normalize data to prevent neural node saturation
+- 
+
+Step 5. Model selection
+- Fully connected feedforward network
+- Consider common low level feature layers in different catergorical product(i.e lifelong learning)
